@@ -5,12 +5,10 @@ A small, deterministic, rule-based question-answering assistant for the three su
 ## Run
 1. Install Python 3.10+.
 2. Open this folder in VS Code.
-3. In the terminal, run `python app.py` only if you add the optional CLI below; the main interface is importable.
-4. Ask a question from a Python shell:
-   ```python
-   from app import ask
-   print(ask("A large merchant above Rs.10 lakh monthly receives a Rs.4,000 UPI payment. What MDR and GST do they pay?", "2026-08-15"))
-   ```
+3. Run the interactive assistant:
+   `python app.py`
+4. Run the evaluation suite:
+   `python eval.py`
 5. Run the evaluation: `python eval.py`
 
 ## What works
