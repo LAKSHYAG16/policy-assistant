@@ -1,0 +1,151 @@
+[
+  {
+    "question": "When does a small merchant receive UPI money?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "T+1",
+    "expected_citations": [
+      "circular_2026_08_amendment.md",
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "A large merchant above Rs.10 lakh monthly receives a Rs.4,000 UPI payment. What MDR and GST do they pay?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "₹23.60",
+    "expected_citations": [
+      "circular_2026_08_amendment.md",
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "A large merchant above Rs.10 lakh monthly receives a Rs.1,50,000 UPI payment. What do they pay?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "₹29.50",
+    "expected_citations": [
+      "circular_2026_08_amendment.md",
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "A merchant refunds a customer 3 hours after the sale. Do they get the MDR back?",
+    "as_of_date": "2026-08-20",
+    "expected_status": "ANSWERED",
+    "expected_contains": "Yes",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "A merchant refunds a customer 3 hours after the sale. Do they get the MDR back?",
+    "as_of_date": "2026-09-05",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "No",
+    "expected_citations": [
+      "circular_2026_08_amendment.md",
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "What does the FAQ say about the MDR cap, and is the FAQ right?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "incorrect",
+    "expected_citations": [
+      "merchant_faq_2026-03.md",
+      "circular_2026_08_amendment.md"
+    ]
+  },
+  {
+    "question": "Can a customer pay Rs.1,00,000 twice in one day to a merchant?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "No",
+    "expected_citations": [
+      "circular_2026_08_amendment.md"
+    ]
+  },
+  {
+    "question": "I closed my account yesterday. When will I get my money?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "10 working days",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "Does the policy allow me to settle card payments same day?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "ANSWERED",
+    "expected_contains": "T+2",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "How long do I have to initiate a refund?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "ANSWERED",
+    "expected_contains": "90 days",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "When must a customer's bank raise a chargeback dispute?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "ANSWERED",
+    "expected_contains": "120 days",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "What is the exact date my pending settlement will be released if my account closed yesterday?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "cannot be determined",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "The FAQ says there is no MDR cap. Confirm that a large merchant pays uncapped MDR.",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "incorrect",
+    "expected_citations": [
+      "merchant_faq_2026-03.md",
+      "circular_2026_08_amendment.md"
+    ]
+  },
+  {
+    "question": "Can an ordinary merchant accept a single UPI payment of Rs.1,50,000?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "ANSWERED",
+    "expected_contains": "₹1,00,000",
+    "expected_citations": [
+      "policy_master_v1.md"
+    ]
+  },
+  {
+    "question": "What is the policy on cash deposits at a branch?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CANNOT_ANSWER",
+    "expected_contains": "cannot answer",
+    "expected_citations": []
+  },
+  {
+    "question": "For a small merchant with monthly volume up to Rs.10 lakh, what is the fee on a Rs.4,000 UPI payment?",
+    "as_of_date": "2026-08-15",
+    "expected_status": "CONFLICT_RESOLVED",
+    "expected_contains": "₹10.00",
+    "expected_citations": [
+      "circular_2026_08_amendment.md",
+      "policy_master_v1.md"
+    ]
+  }
+]
