@@ -9,7 +9,6 @@ A small, deterministic, rule-based question-answering assistant for the three su
    `python app.py`
 4. Run the evaluation suite:
    `python eval.py`
-5. Run the evaluation: `python eval.py`
 
 ## What works
 - Offline, deterministic rules for UPI settlement, MDR/GST arithmetic, refunds, limits, account closure, card settlement, refund windows, and chargebacks.
